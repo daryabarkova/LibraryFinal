@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns="http://www.barkova.by/employees_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.barkova.by/employees_schema employees_schema.xsd">
+	<employee id="1">
+		<name>Tom</name>
+		<surname>Green</surname>
+		<birthDate>1993-01-05</birthDate>
+		<email>tgreen@mail.com</email>
+		<books>
+			<book>
+				<title>Flowers for Algernon</title>
+				<author>Daniel Keyes</author>
+				<year>2000</year>
+			</book>
+			<book>
+				<title>The Minds of Billy Milligan</title>
+				<author>Daniel Keyes</author>
+				<year>2001</year>
+			</book>
+		</books>
+	</employee>
+	<employee id="2">
+		<name>Jane</name>
+		<surname>Smith</surname>
+		<birthDate>1984-02-08</birthDate>
+		<email>jsmith@mail.com</email>
+		<books>
+			<book>
+				<title>Fahrenheit 451</title>
+				<author>Ray Bradbury</author>
+				<year>2010</year>
+			</book>
+			<book>
+				<title>Dandelion Wine</title>
+				<author>Ray Bradbury</author>
+				<year>2001</year>
+			</book>
+			<book>
+				<title>The Chronicles of Amber</title>
+				<author>Roger Zelazny</author>
+				<year>2006</year>
+			</book>
+		</books>
+	</employee>
+	<employee id="3">
+		<name>Richard</name>
+		<surname>Peers</surname>
+		<birthDate>1984-06-04</birthDate>
+		<email>rpeers@mail.com</email>
+		<books>
+			<book>
+				<title>The Catcher in the Rye</title>
+				<author>Jerome Salinger</author>
+				<year>2012</year>
+			</book>
+		</books>
+	</employee>
+	<employee id="4">
+		<name>Maria</name>
+		<surname>Ivanova</surname>
+		<birthDate>1990-02-03</birthDate>
+		<email>mivanova@mail.com</email>
+		<!--  <books /> -->
+	</employee>
+	<employee id="5">
+		<name>Darya</name>
+		<surname>Barkova</surname>
+		<birthDate>1989-02-08</birthDate>
+		<email>dbarkova@mail.com</email>
+		<books>
+			<book>
+				<title>Flowers for Algernon</title>
+				<author>Daniel Keyes</author>
+				<year>2000</year>
+			</book>
+			<book>
+				<title>The Minds of Billy Milligan</title>
+				<author>Daniel Keyes</author>
+				<year>2001</year>
+			</book>
+			<book>
+				<title>The Chronicles of Amber</title>
+				<author>Roger Zelazny</author>
+				<year>2006</year>
+			</book>
+			<book>
+				<title>The Catcher in the Rye</title>
+				<author>Jerome Salinger</author>
+				<year>2012</year>
+			</book>
+		</books>
+	</employee>
+	<employee id="6">
+		<name>Emil</name>
+		<surname>Sarkisyan</surname>
+		<birthDate>1985-11-01</birthDate>
+		<email>esarkisyan@mail.com</email>
+		<books>
+			<book>
+				<title>The Catcher in the Rye</title>
+				<author>Jerome Salinger</author>
+				<year>2012</year>
+			</book>
+			<book>
+				<title>Fahrenheit 451</title>
+				<author>Ray Bradbury</author>
+				<year>2010</year>
+			</book>
+		</books>
+	</employee>
+</employees>

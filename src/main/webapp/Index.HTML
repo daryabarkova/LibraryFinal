@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Start Page</title>
+  </head>
+    <body>
+    <p>
+    <span>Good day, dear guest!</span>
+    <span>You are welcome to check what you can read in the library!</span>
+    </p>
+       <form action="SimpleServletController" method= "get">
+           <input type= "hidden" name= "action" value= "1">
+           <input type ="submit" value= "View Books">
+       </form>
+    <p>
+    <span>Please fill the form to register new book, thanks! (:</span>
+    </p>    
+
+      <form action="SimpleServletController" method= "get">
+          <input type= "hidden" name= "action" value="2"/>
+          <span>Book title</span>
+          <br>
+          <input type= "text" name= "title" required/>
+          <br>
+          <br>
+          <span>Author details (name, date of birth)</span>
+          <br>
+          <input type= "text" name= "author_details" required/>
+          <br>
+          <br>
+          <span>Year of publishing</span>
+          <br>
+          <input type= "text" name= "year" required/>
+          <input type= "submit" value= "Register New Book"/>      
+      </form>
+</body>
+</html>
